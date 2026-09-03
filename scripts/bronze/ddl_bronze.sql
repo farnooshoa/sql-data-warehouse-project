@@ -21,7 +21,7 @@ cst_id INT,
 cst_key NVARCHAR(50),
 cst_firstname NVARCHAR(50),
 cst_lastname NVARCHAR(50),
-cst_material_status NVARCHAR(50),
+cst_marital_status NVARCHAR(50),
 cst_gndr NVARCHAR(50),
 cst_create_date DATE
 );
@@ -76,7 +76,7 @@ GO
 
 CREATE TABLE bronze.erp_loc_a101(
 cid NVARCHAR(50),
-cntery NVARCHAR(50)
+cntry NVARCHAR(50)
 );
 GO
 
